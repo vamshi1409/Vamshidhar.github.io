@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Artifact 1 - [YOUR FULL NAME]</title>
-  <meta name="description" content="Artifact 1 of the professional portfolio.">
+  <title>Artifact 1: DriveMate AI - Vamshidhar Reddy Bollampally</title>
+  <meta name="description" content="DriveMate AI, an educational car-buying chatbot built in Mizou, with design thinking, testing and evaluation.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site">
     <div class="wrap">
-      <div class="name">[YOUR FULL NAME]</div>
+      <div class="name">Vamshidhar Reddy Bollampally</div>
       <nav aria-label="Main">
         <a href="index.html">Home</a>
         <a href="artifact-1.html" aria-current="page">Artifact 1</a>
@@ -21,64 +21,72 @@
   <main class="wrap">
     <section class="card">
       <h2>Title</h2>
-      <h1>[Title of your artifact]</h1>
+      <h1>DriveMate AI: A Car-Buying Chatbot Built and Tested in Mizou</h1>
     </section>
 
     <section class="card">
       <h2>Introduction</h2>
-      <p>[What the artifact is, which course it is for, and who it is written for.]</p>
+      <p>This artifact is the documentation for DriveMate AI, an educational chatbot I built in Mizou for the AIML-500 Machine Learning Fundamentals course (AI Lab 1.4). It is written for university students and first-time car buyers, and for hiring managers who want to see how I design, test and critically evaluate an AI product.</p>
     </section>
 
     <section class="card">
       <h2>The Timeline</h2>
-      <iframe class="viewer" src="assets/Artifact_1.pdf" title="Artifact 1"></iframe>
-      <p style="margin-top:14px;"><a class="btn" href="assets/Artifact_1.pdf">Download the artifact (PDF)</a></p>
+      <iframe class="viewer" src="assets/DriveMate_AI_Lab_Documentation.pdf" title="DriveMate AI documentation"></iframe>
+      <p style="margin-top:14px;"><a class="btn" href="assets/DriveMate_AI_Lab_Documentation.pdf">Download the full documentation (PDF)</a></p>
     </section>
 
     <section class="card">
       <h2>Description</h2>
-      <p>[What the artifact contains and shows.]</p>
+      <p>The document covers the problem, learning objectives and a design thinking approach (Empathize, Define, Ideate, Prototype, Test); a ten-question bot-building plan; a comparison of three ChatGPT replies to one prompt; a six-turn custom GPT follow-up exercise; a research review of the STORM tool; the Mizou configuration; seven live tests of the published bot with screenshots; and a section on ethics, privacy and reliability. It states clearly what each piece of evidence does and does not show.</p>
     </section>
 
     <section class="card">
       <h2>Objective</h2>
-      <p>[The goal of the artifact and the main idea it argues.]</p>
+      <p>To help a first-time buyer compare vehicles, understand financing basics such as down payment, APR and loan term, and know what to verify with a real dealer or lender, without the bot inventing prices, promising loans or confirming appointments. In live testing, DriveMate AI explained financing, declined to guarantee 0% interest and declined to book a test drive. Two weaknesses were found: vehicle details that I could not confirm against my prepared sample file, and a changed budget that did not carry over the earlier SUV preference.</p>
     </section>
 
     <section class="card">
       <h2>Process</h2>
       <ol>
-        <li>[Step 1]</li>
-        <li>[Step 2]</li>
-        <li>[Step 3]</li>
+        <li>I defined the problem and success criteria for first-time buyers, then answered the ten planning questions for the bot.</li>
+        <li>I ran one prompt in three separate ChatGPT chats and compared accuracy, clarity and instruction following, then ran a six-turn follow-up exercise with a custom GPT.</li>
+        <li>I configured DriveMate AI in Mizou: title, AI name, learning objective, welcome message and a rule limiting replies to 500 characters.</li>
+        <li>I tested the live bot with seven buyer questions and recorded each reply with screenshots.</li>
+        <li>I tested a separate scripted local prototype, found a budget-change bug (7 of 8 checks passed), fixed it and retested (8 of 8). I kept these results separate from the live Mizou results.</li>
+        <li>I wrote a proposed rule improvement for the live bot and listed the evidence still missing.</li>
       </ol>
     </section>
 
     <section class="card">
       <h2>Tools and Technologies Used</h2>
-      <p>[Tools used, for example slides software, any AI tool, sources, GitHub Pages.]</p>
+      <p>Mizou (chatbot platform); ChatGPT (comparison chats and custom GPT exercise); a scripted HTML prototype tested in a headless Chromium browser; the Stanford STORM project documentation; and public guidance from the Consumer Financial Protection Bureau, the Federal Trade Commission and NHTSA. GitHub Pages hosts this portfolio.</p>
     </section>
 
     <section class="card">
       <h2>Value Proposition</h2>
-      <p><strong>Unique Value.</strong> [What makes this artifact different.]</p>
-      <p><strong>Relevance.</strong> [Why your audience would care.]</p>
+      <p><strong>Unique Value.</strong> I test AI output against evidence instead of trusting it. This project separates live results from prototype results, flags facts I could not verify, and turns each weakness into a specific rule improvement.</p>
+      <p><strong>Relevance.</strong> Teams that deploy chatbots need people who can set limits on what a bot may claim, test it with real user questions and report honestly where it fails.</p>
     </section>
 
     <section class="card">
       <h2>AI Use Statement</h2>
-      <p>[State which AI tools you used, for what, and what you reviewed or edited yourself. If none, say so.]</p>
+      <p>DriveMate AI runs on Mizou's generative AI. ChatGPT was used for the three-chat comparison and the custom GPT exercise, and the scripted prototype tests were run with an AI assistant. [Add here whether an AI tool helped you write or edit this documentation, and what you reviewed yourself.]</p>
     </section>
 
     <section class="card refs">
       <h2>References</h2>
-      <p>[Reference 1 in APA 7 format]</p>
-      <p>[Reference 2]</p>
+      <p>Consumer Financial Protection Bureau. (2024). What is a Truth-in-Lending disclosure for an auto loan? <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-truth-in-lending-disclosure-for-an-auto-loan-en-787/">https://www.consumerfinance.gov/ask-cfpb/what-is-a-truth-in-lending-disclosure-for-an-auto-loan-en-787/</a></p>
+      <p>Consumer Financial Protection Bureau. (2024). How do I compare auto loan offers? <a href="https://www.consumerfinance.gov/ask-cfpb/how-do-i-compare-auto-loan-offers-what-should-i-look-at-besides-the-monthly-payment-en-753/">https://www.consumerfinance.gov/ask-cfpb/how-do-i-compare-auto-loan-offers-what-should-i-look-at-besides-the-monthly-payment-en-753/</a></p>
+      <p>Federal Trade Commission. (n.d.). Buying a car. Consumer.gov. <a href="https://consumer.gov/cars/buying-car">https://consumer.gov/cars/buying-car</a></p>
+      <p>Federal Trade Commission. (2024). Buying a used car from a dealer. <a href="https://consumer.ftc.gov/articles/buying-used-car-dealer">https://consumer.ftc.gov/articles/buying-used-car-dealer</a></p>
+      <p>Mizou. (n.d.). Privacy policy. <a href="https://mizou.com/privacy">https://mizou.com/privacy</a></p>
+      <p>National Highway Traffic Safety Administration. (n.d.). Check for recalls. <a href="https://www.nhtsa.gov/recalls">https://www.nhtsa.gov/recalls</a></p>
+      <p>Stanford OVAL. (n.d.). STORM: Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking [GitHub repository]. <a href="https://github.com/stanford-oval/storm">https://github.com/stanford-oval/storm</a></p>
     </section>
   </main>
 
   <footer>
-    <div class="wrap">[YOUR FULL NAME] | Indiana Wesleyan University | AIML-500</div>
+    <div class="wrap">Vamshidhar Reddy Bollampally | Indiana Wesleyan University | AIML-500</div>
   </footer>
 </body>
 </html>
