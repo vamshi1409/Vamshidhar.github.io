@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artifact 2: DriveMate AI Chatbot - Vamshidhar Reddy Bollampally</title>
+  <meta name="description" content="DriveMate AI, an educational car-buying chatbot built in Mizou, with design thinking, testing and evaluation.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <div class="name">Vamshidhar Reddy Bollampally</div>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="artifact-1.html">Artifact 1</a>
+        <a href="artifact-2.html" aria-current="page">Artifact 2</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Title</h2>
+      <h1>DriveMate AI: A Car-Buying Chatbot Built and Tested in Mizou</h1>
+    </section>
+
+    <section class="card">
+      <h2>Introduction</h2>
+      <p>This artifact is the documentation for DriveMate AI, an educational chatbot I built in Mizou for the AIML-500 Machine Learning Fundamentals course (AI Lab 1.4). It is written for university students and first-time car buyers, and for hiring managers who want to see how I design, test and critically evaluate an AI product.</p>
+    </section>
+
+    <section class="card">
+      <h2>The Documentation</h2>
+      <iframe class="viewer" src="assets/DriveMate_AI_Lab_Documentation.pdf" title="DriveMate AI documentation"></iframe>
+      <p style="margin-top:14px;"><a class="btn" href="assets/DriveMate_AI_Lab_Documentation.pdf">Download the full documentation (PDF)</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Description</h2>
+      <p>The document covers the problem and learning objectives, a design thinking approach, a ten-question bot-building plan, three ChatGPT replies to one prompt compared side by side, a six-turn custom GPT follow-up exercise, a review of the STORM research tool, the Mizou configuration, and seven live tests of the published bot with screenshots. It also covers privacy, finance accuracy and risks. It states clearly what each piece of evidence shows and what it does not, and it lists the checks still open.</p>
+    </section>
+
+    <section class="card">
+      <h2>Objective</h2>
+      <p>To show that I can build an educational AI tool and judge its output critically. DriveMate AI helps first-time car buyers compare vehicles and learn financing basics without inventing prices, promising loans or confirming appointments. In seven live tests, it explained financing, declined to guarantee 0% interest and declined to book a test drive. It also quoted vehicle details that I could not confirm against my sample inventory file, and it did not keep an earlier SUV preference when the budget changed. The document records both findings and proposes a rule change to fix them.</p>
+    </section>
+
+    <section class="card">
+      <h2>Process</h2>
+      <ol>
+        <li>I defined the problem and the audience: university students and first-time car buyers.</li>
+        <li>I applied design thinking and answered ten planning questions about the bot's goals, limits and tests.</li>
+        <li>I configured DriveMate AI in Mizou with a welcome message and rules, including a limit of 500 characters per reply.</li>
+        <li>I tested seven buyer questions in the live bot, recorded each reply with screenshots, and graded each one against stated criteria.</li>
+        <li>I tested a separate scripted prototype in a browser, found a budget-change bug (7 of 8 checks passed), fixed it and retested (8 of 8). I kept those results separate from the live Mizou results.</li>
+        <li>I wrote a proposed rule improvement and listed what is still open: a saved Mizou revision with a retest, the STORM article, and the custom GPT name.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Tools and Technologies Used</h2>
+      <p>Mizou (chatbot platform); ChatGPT (comparison chats and custom GPT exercise); a scripted HTML prototype tested in a headless Chromium browser; the Stanford STORM project documentation; and public guidance from the Consumer Financial Protection Bureau, the Federal Trade Commission and NHTSA. GitHub Pages hosts this portfolio.</p>
+    </section>
+
+    <section class="card">
+      <h2>Value Proposition</h2>
+      <p><strong>Unique Value.</strong> I separate what I tested from what I only assumed. The document labels live results, prototype results and unverified details, and it grades the bot honestly, including where it fell short.</p>
+      <p><strong>Relevance.</strong> Teams that deploy chatbots need people who can set limits on what a bot may claim, test it with real questions and report weaknesses clearly. That fits my work as a Full Stack .NET Developer, where reliable output matters as much as building features.</p>
+    </section>
+
+    <section class="card">
+      <h2>AI Use Statement</h2>
+      <p>DriveMate AI runs on Mizou's generative AI. ChatGPT was used for the three-chat comparison and the custom GPT exercise, and an AI assistant helped run the scripted prototype tests and draft the documentation. [Add one sentence on what you personally reviewed, tested or changed.]</p>
+    </section>
+
+    <section class="card refs">
+      <h2>References</h2>
+      <p>Consumer Financial Protection Bureau. (2024). What is a Truth-in-Lending disclosure for an auto loan? <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-truth-in-lending-disclosure-for-an-auto-loan-en-787/">https://www.consumerfinance.gov/ask-cfpb/what-is-a-truth-in-lending-disclosure-for-an-auto-loan-en-787/</a></p>
+      <p>Consumer Financial Protection Bureau. (2024). How do I compare auto loan offers? <a href="https://www.consumerfinance.gov/ask-cfpb/how-do-i-compare-auto-loan-offers-what-should-i-look-at-besides-the-monthly-payment-en-753/">https://www.consumerfinance.gov/ask-cfpb/how-do-i-compare-auto-loan-offers-what-should-i-look-at-besides-the-monthly-payment-en-753/</a></p>
+      <p>Federal Trade Commission. (n.d.). Buying a car. Consumer.gov. <a href="https://consumer.gov/cars/buying-car">https://consumer.gov/cars/buying-car</a></p>
+      <p>Federal Trade Commission. (2024). Buying a used car from a dealer. <a href="https://consumer.ftc.gov/articles/buying-used-car-dealer">https://consumer.ftc.gov/articles/buying-used-car-dealer</a></p>
+      <p>Mizou. (n.d.). Privacy policy. <a href="https://mizou.com/privacy">https://mizou.com/privacy</a></p>
+      <p>National Highway Traffic Safety Administration. (n.d.). Check for recalls. <a href="https://www.nhtsa.gov/recalls">https://www.nhtsa.gov/recalls</a></p>
+      <p>Stanford OVAL. (n.d.). STORM: Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking [GitHub repository]. <a href="https://github.com/stanford-oval/storm">https://github.com/stanford-oval/storm</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Vamshidhar Reddy Bollampally | Indiana Wesleyan University | AIML-500</div>
+  </footer>
+</body>
+</html>
